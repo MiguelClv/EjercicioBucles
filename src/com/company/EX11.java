@@ -10,8 +10,8 @@ public class EX11 {
         Scanner scanner = new Scanner(System.in);
         int x = (int) (100*Math.random()+1);
         int intentos=9;
-        System.out.println(x);
         for(int i=1;i<=10;i++){
+
             System.out.println("Dime un numero:");
             int num = scanner.nextInt();
 
